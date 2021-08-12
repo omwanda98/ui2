@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Digital Identity - Traffic</title>
+  <!--favicon-->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!-- simplebar CSS-->
+  <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+  <!-- Bootstrap core CSS-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- animate CSS-->
+  <link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
+  <!-- Icons CSS-->
+  <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+  <!-- Sidebar CSS-->
+  <link href="assets/css/sidebar-menu.css" rel="stylesheet" />
+  <!-- Custom Style-->
+  <link href="assets/css/app-style.css" rel="stylesheet" />
+  <!--Bootstrap Datepicker-->
+  <link href="assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css">
+  <!--Select Plugins-->
+  <link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body class="bg-theme bg-theme1">
+
+  <!-- start loader -->
+  <div id="pageloader-overlay" class="visible incoming">
+    <div class="loader-wrapper-outer">
+      <div class="loader-wrapper-inner">
+        <div class="loader"></div>
+      </div>
+    </div>
+  </div>
+  <!-- end loader -->
+
+  <!-- Start wrapper-->
+  <div id="wrapper">
+
+    <!--Start sidebar-wrapper-->
+    <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
+      <div class="brand-logo">
+        <a href="dashboard.html">
+          <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+          <h5 class="logo-text">Digital Identity</h5>
+        </a>
+      </div>
+      <div class="user-details">
+        <div class="media align-items-center user-pointer collapsed" data-toggle="collapse"
+          data-target="#user-dropdown">
+          <div class="avatar"><img class="mr-3 side-user-img" src="https://via.placeholder.com/110x110"
+              alt="user avatar"></div>
+          <div class="media-body">
+            <h6 class="side-user-name">Login name</h6>
+          </div>
+        </div>
+        <div id="user-dropdown" class="collapse">
+          <ul class="user-setting-menu">
+            <li><a href="javaScript:void();"><i class="icon-power"></i> Logout</a></li>
+          </ul>
+        </div>
+      </div>
+      <ul class="sidebar-menu">
+        <li class="sidebar-header">MAIN NAVIGATION</li>
+        <li>
+          <a href="javaScript:void();" class="waves-effect">
+            <i class="zmdi zmdi-view-dashboard"></i> <span>Traffic</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="sidebar-submenu">
+            <li><a href="traffic.html"><i class="zmdi zmdi-dot-circle-alt"></i>Add</a></li>
+            <li><a href="traffic-list.html"><i class="zmdi zmdi-dot-circle-alt"></i>List</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javaScript:void();" class="waves-effect">
+            <i class="zmdi zmdi-view-dashboard"></i> <span>Citizen</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="sidebar-submenu">
+            <li><a href="citizen.html"><i class="zmdi zmdi-dot-circle-alt"></i>Add</a></li>
+            <li><a href="citizen-list.html"><i class="zmdi zmdi-dot-circle-alt"></i>List</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javaScript:void();" class="waves-effect">
+            <i class="zmdi zmdi-view-dashboard"></i> <span>Criminal</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="sidebar-submenu">
+            <li><a href="criminal.html"><i class="zmdi zmdi-dot-circle-alt"></i>Add</a></li>
+            <li><a href="criminal-list.html"><i class="zmdi zmdi-dot-circle-alt"></i>List</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javaScript:void();" class="waves-effect">
+            <i class="zmdi zmdi-view-dashboard"></i> <span>Marriage</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="sidebar-submenu">
+            <li><a href="marraige.html"><i class="zmdi zmdi-dot-circle-alt"></i> Add</a></li>
+            <li><a href="marriage-list.html"><i class="zmdi zmdi-dot-circle-alt"></i> List</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javaScript:void();" class="waves-effect">
+            <i class="zmdi zmdi-view-dashboard"></i> <span>Education</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="sidebar-submenu">
+            <li><a href="education.html"><i class="zmdi zmdi-dot-circle-alt"></i> Add</a></li>
+            <li><a href="education-list.html"><i class="zmdi zmdi-dot-circle-alt"></i> List</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javaScript:void();" class="waves-effect">
+            <i class="zmdi zmdi-view-dashboard"></i> <span>Traffic</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="sidebar-submenu">
+            <li><a href="traffic.html"><i class="zmdi zmdi-dot-circle-alt"></i> Add</a></li>
+            <li><a href="traffic-list.html"><i class="zmdi zmdi-dot-circle-alt"></i> List</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javaScript:void();" class="waves-effect">
+            <i class="zmdi zmdi-view-dashboard"></i> <span>Weapon</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="sidebar-submenu">
+            <li><a href="weapon.html"><i class="zmdi zmdi-dot-circle-alt"></i> Add</a></li>
+            <li><a href="weapon-list.html"><i class="zmdi zmdi-dot-circle-alt"></i> List</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="javaScript:void();" class="waves-effect"><i class="zmdi zmdi-share text-info"></i>
+            <span>Information</span></a>
+        </li>
+      </ul>
+
+    </div>
+    <!--End sidebar-wrapper-->
+    <!--Start topbar header-->
+    <header class="topbar-nav">
+      <nav class="navbar navbar-expand fixed-top">
+        <ul class="navbar-nav mr-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link toggle-menu" href="javascript:void();">
+              <i class="icon-menu menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <form class="search-bar">
+              <input type="text" class="form-control" placeholder="Enter keywords">
+              <a href="javascript:void();"><i class="icon-magnifier"></i></a>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--End topbar header-->
+
+    <div class="clearfix"></div>
+
+    <div class="content-wrapper">
+      <div class="container-fluid">
+        <!-- Breadcrumb-->
+        <div class="row pt-2 pb-2">
+          <div class="col-sm-9">
+            <h4 class="page-title">Traffic</h4>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="dashboard.html">Digital Identity</a></li>
+              <li class="breadcrumb-item"><a href="traffic.html">Traffic</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Add</li>
+            </ol>
+          </div>
+        </div>
+        <!-- End Breadcrumb-->
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+                <form id="signupForm">
+                  <h4 class="form-header text-uppercase">
+                    <i class="fa fa-address-book-o"></i>
+                    Traffic Information
+                  </h4>
+                  <div class="form-group row">
+                    <label for="input-11" class="col-sm-2 col-form-label">CNIC</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="input-11" name="cnic">
+                    </div>
+                    <label for="input-10" class="col-sm-2 col-form-label">Voucher#</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="input-10" name="voucher">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="input-13" class="col-sm-2 col-form-label">Challan Type</label>
+                    <div class="col-sm-4">
+                      <select name="challan_type" class="single-select">
+                        <option value="AF">Afghanistan</option>
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+                        <option value="AD">Andorra</option>
+                      </select>
+                    </div>
+                    <label for="input-10" class="col-sm-2 col-form-label">Challan Fee</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="input-10" name="challan_fee">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="input-12" class="col-sm-2 col-form-label">Date</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="default-datepicker" name="date_of_birth">
+                    </div>
+                  </div>
+
+                  <div class="form-footer">
+                    <button type="submit" class="btn btn-danger"><i class="fa fa-times"></i> CANCEL</button>
+                    <button type="submit" class="btn btn-success"><i class="fa fa-check-square-o"></i> SAVE</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Row-->
+        <!--start overlay-->
+        <div class="overlay toggle-menu"></div>
+        <!--end overlay-->
+      </div>
+      <!-- End container-fluid-->
+
+    </div>
+    <!--End content-wrapper-->
+    <!--Start Back To Top Button-->
+    <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+    <!--End Back To Top Button-->
+
+  </div>
+  <!--End wrapper-->
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- simplebar js -->
+  <script src="assets/plugins/simplebar/js/simplebar.js"></script>
+  <!-- sidebar-menu js -->
+  <script src="assets/js/sidebar-menu.js"></script>
+
+  <!-- Custom scripts -->
+  <script src="assets/js/app-script.js"></script>
+
+  <!--Form Validatin Script-->
+  <script src="assets/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+  <script>
+
+    $().ready(function () {
+
+      $("#personal-info").validate();
+
+      // validate signup form on keyup and submit
+      $("#signupForm").validate({
+        rules: {
+          firstname: "required",
+          lastname: "required",
+          username: {
+            required: true,
+            minlength: 2
+          },
+          password: {
+            required: true,
+            minlength: 5
+          },
+          confirm_password: {
+            required: true,
+            minlength: 5,
+            equalTo: "#password"
+          },
+          email: {
+            required: true,
+            email: true
+          },
+          contactnumber: {
+            required: true,
+            minlength: 10
+          },
+          topic: {
+            required: "#newsletter:checked",
+            minlength: 2
+          },
+          agree: "required"
+        },
+        messages: {
+          firstname: "Please enter your firstname",
+          lastname: "Please enter your lastname",
+          username: {
+            required: "Please enter a username",
+            minlength: "Your username must consist of at least 2 characters"
+          },
+          password: {
+            required: "Please provide a password",
+            minlength: "Your password must be at least 5 characters long"
+          },
+          confirm_password: {
+            required: "Please provide a password",
+            minlength: "Your password must be at least 5 characters long",
+            equalTo: "Please enter the same password as above"
+          },
+          email: "Please enter a valid email address",
+          contactnumber: "Please enter your 10 digit number",
+          agree: "Please accept our policy",
+          topic: "Please select at least 2 topics"
+        }
+      });
+
+    });
+
+  </script>
+
+
+  <!--Bootstrap Datepicker Js-->
+  <script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <script>
+    $('#default-datepicker').datepicker({
+      todayHighlight: true
+    });
+    $('#autoclose-datepicker').datepicker({
+      autoclose: true,
+      todayHighlight: true
+    });
+
+    $('#inline-datepicker').datepicker({
+      todayHighlight: true
+    });
+
+    $('#dateragne-picker .input-daterange').datepicker({
+    });
+
+  </script>
+
+
+  <!--Select Plugins Js-->
+  <script src="assets/plugins/select2/js/select2.min.js"></script>
+  <script>
+    $('.single-select').select2();
+  </script>
+
+
+
+</body>
+
+</html>
